@@ -5,12 +5,13 @@ import Pagination from './Common/pagination'
 class Movies extends Component {
     state = {  
         movies:getMovies(),
-        pageSize:4
+        pageSize:10,
+        currentPage:1
     
     }
-    
-  handlePageChange=(page)=>{
-   console.log(page);
+
+  handlePageChange=page=>{
+        this.setState({currentPage:page});
     }
     handleDelete(movie){
       const movies=this.state.movies.filter(m=>m._id !== movie._id)
@@ -50,7 +51,12 @@ class Movies extends Component {
                  
                 </tbody>
             </table>
-            <Pagination  itemsCount={this.state.movies.length} pageSize={this.state.pageSize} onPageChange={this.handlePageChange}/>
+            <Pagination  
+            itemsCount={this.state.movies.length} 
+            pageSize={this.state.pageSize} 
+            onPageChange={this.handlePageChange}
+            currentPage={this.state.currentPage}
+            />   
             </React.Fragment>
         );
         
