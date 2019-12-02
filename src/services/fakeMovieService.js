@@ -64,6 +64,48 @@ const movies = [
     genre: { _id: "5b21ca3eeb7f6fbccd471818", name: "Action" },
     numberInStock: 7,
     dailyRentalRate: 3.5
+  },
+  {
+    _id: "5b21ca3eeb7f6fbccd471822",
+    title: "The Avengers",
+    genre: { _id: "5b21ca3eeb7f6fbccd471818", name: "Action" },
+    numberInStock: 7,
+    dailyRentalRate: 3.5
+  },
+  {
+    _id: "5b21ca3eeb7f6fbccd471823",
+    title: "The Avengers",
+    genre: { _id: "5b21ca3eeb7f6fbccd471818", name: "Action" },
+    numberInStock: 7,
+    dailyRentalRate: 3.5
+  },
+  {
+    _id: "5b21ca3eeb7f6fbccd471824",
+    title: "The Avengers",
+    genre: { _id: "5b21ca3eeb7f6fbccd471818", name: "Action" },
+    numberInStock: 7,
+    dailyRentalRate: 3.5
+  },
+  {
+    _id: "5b21ca3eeb7f6fbccd471825",
+    title: "The Avengers",
+    genre: { _id: "5b21ca3eeb7f6fbccd471818", name: "Action" },
+    numberInStock: 7,
+    dailyRentalRate: 3.5
+  },
+  {
+    _id: "5b21ca3eeb7f6fbccd471826",
+    title: "The Avengers",
+    genre: { _id: "5b21ca3eeb7f6fbccd471818", name: "Action" },
+    numberInStock: 7,
+    dailyRentalRate: 3.5
+  },
+  {
+    _id: "5b21ca3eeb7f6fbccd471827",
+    title: "The Avengers",
+    genre: { _id: "5b21ca3eeb7f6fbccd471818", name: "Action" },
+    numberInStock: 7,
+    dailyRentalRate: 3.5
   }
 ];
 
