@@ -5,8 +5,7 @@ export function paginate(items,pageNumber,pageSize){
 return _(items) //inorder to use chaining the 
 .slice(startIndex)
 .take(pageSize)
-.value();//Inorder to return lodash object 
-as a normal array we use .value();
+.value();//Inorder to return lodash object as a normal array we use .value();
  //_.slice(items,startIndex);
  //_.take()
 
